@@ -31,3 +31,7 @@ app.get('/hamilton', (req, res) => {
 app.get('/hopper', (req, res) => {
     res.sendFile(path.join(__dirname, '/views/hopper.html'))
 })
+
+app.get('/lovelace', (req, res) => {
+    res.sendFile(path.join(__dirname, '/views/lovelace.html'))
+})
