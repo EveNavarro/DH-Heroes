@@ -23,3 +23,7 @@ app.get('/berners-lee', (req, res) => {
 app.get('/clarke', (req, res) => {
     res.sendFile(path.join(__dirname, '/views/clarke.html'))
 });
+
+app.get('/hamilton', (req, res) => {
+    res.sendFile(path.join(__dirname, '/views/hamilton.html'))
+})
