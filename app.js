@@ -14,4 +14,8 @@ app.get('/home', (req, res)=>{
 
 app.get('/babbage', (req, res) => {
     res.sendFile(path.join(__dirname, '/views/babbage.html'))
-})
+});
+
+app.get('/berners-lee', (req, res) => {
+    res.sendFile(path.join(__dirname, '/views/berners-lee.html'))
+});
