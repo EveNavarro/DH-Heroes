@@ -11,3 +11,7 @@ app.listen(port, () =>
 app.get('/home', (req, res)=>{
     res.sendFile(path.join(__dirname, '/views/index.html'))
 });
+
+app.get('/babbage', (req, res) => {
+    res.sendFile(path.join(__dirname, '/views/babbage.html'))
+})
