@@ -2,6 +2,8 @@
 a{
     text-decoration: none;
     color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
 
 }
 .font {
@@ -20,15 +22,10 @@ h3 {
 img {
     width: 400px;
 }
-.block{
+ul#lista li{
     text-align: center;
-    background-color: rgb(219, 219, 219);
-    color: chartreuse;
-}
-.list{
-    text-align: center;
-    display: inline;
     list-style-type: none;
+    background-color: rgba(238, 238, 238, 0.63);
 }
 a img{
     width: 250px;
